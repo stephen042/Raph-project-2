@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+    border:1px solid black;
+    height: 1000px;
+}
+.head{
+    width: 100%;
+    height: 70px;
+    border-bottom: white 2px solid;
+    display:flex;
+    justify-content: space-between;
+    background-color: #3644af;
+}
+.head .box{
+    width: 60%;
+    height: 70px;
+    /* border: 2px red solid; */
+}
+.head .box h4{
+    color: rgb(181, 205, 233);
+    padding-left: 60px;
+    padding-top: 20px;
+    font-size: large;
+     font-weight: lighter;
+}
+.head .box-a{
+    width: 35%;
+    height: 70px;
+    /* border: 2px brown solid; */
+}
+.box-a .link{
+    /* border: solid black 2px; */
+    height: 50px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    display:flex;
+    justify-content: space-between;
+}
+.box-a .link a{
+    text-decoration: none;
+    /* background-color: white; */
+    height: 25px;
+    border-radius: 5px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-top: 2px;
+}
+.box-a .link a p{
+    color:  rgb(181, 205, 233);
+    padding-left: 5px ;
+    padding-right: 5px;
+    padding-top: 7px;
+}
+.box-a .link a:hover{
+   background-color: white;
+}
+
+
+.section-1{
+    border: solid black 2px;
+    width: 100%;
+    height: 500px;
+    background-color: #3644af;
+}
+.section-1 .carrier{
+    width: 85%;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: solid palevioletred 2px; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 .carrier .text{
+    width: 60%;
+    height: 350px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* border: black 2px solid; */
+}
+.section-1 .carrier .text h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section-1 .carrier .text p{
+    color: white;
+    font-size: normal;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.section-1 .carrier .text a{
+     color: #3644af;
+     text-decoration: none;
+     background-color: white;
+}
+.section-1 .carrier .text a p{
+    fo
+}
+.section-1 .carrier .img{
+    width:35% ;
+    height: 400px;
+    /* border: black 2px solid; */
+}
+.section-1 .carrier .img img{
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+    background: transparent;
+}
