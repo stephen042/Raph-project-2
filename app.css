@@ -36,14 +36,14 @@
     height: 56%;
     position: relative;
     left: 5%;
-    top: 37%;
+    top: 27%;
 }
 
 .container header .navBar .links .list-box {
     display: flex;
     justify-content: space-around;
     position: relative;
-    top: 10%;
+    top: 20%;
 }
 
 .container header .navBar .links .list-box .item-box {
@@ -68,4 +68,61 @@
     height: 110vh;
     width: 100%;
     background-color: #3644AF ;
+    display: flex;
+}
+
+.container .welcome .text{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 60%;
+    position: relative;
+    top: 30%;
+}
+.container .welcome .text .Grow{
+    border: 1px solid red;
+    height: 50%;
+    width: 75%;
+    margin-left: 100px;
+}
+.container .welcome .text .Grow .GrowP{
+    color: white;
+    font-size: 60px;
+    /* letter-spacing: 1px; */
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+.container .welcome .text .pbtn {
+    border: 1px solid red;
+    height: 50%;
+    width: 87%;
+    margin-left: 100px;
+}
+.container .welcome .text .pbtn .longtext{
+    color: white;
+
+}
+
+.container .welcome .image{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 80%;
+    position: relative;
+    top: 20%;
+    /* padding: 10px 0px; */
+}
+
+.container .welcome .image img{
+    width: 83%;
+    height: 95%;
+    margin-top: 20px;
+}
+
+.container .curve{
+    /* border: 1px solid red; */
+    height: 41vh;
+    width: 100%;
+    background-color: #3644AF;
+    background-image: url('./images/bg-patter-2.png');
+    background-size: contain;
 }
