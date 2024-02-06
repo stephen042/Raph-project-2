@@ -1,5 +1,6 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    ;
     margin: 0px;
 }
 
@@ -51,59 +52,78 @@
     /* border: 1px solid red; */
 }
 
-.container header .navBar .links .list-box .item-box .nav-link{
+.container header .navBar .links .list-box .item-box .nav-link {
     color: white;
     text-decoration: none;
     border-radius: 5px;
     padding: 10px 15px;
 }
-.container header .navBar .links .list-box .item-box .nav-link:hover{
+
+.container header .navBar .links .list-box .item-box .nav-link:hover {
     color: #3644AF;
     background: white;
     transition: 0.5s;
 }
 
-.container .welcome{
+.container .welcome {
     /* border: 1px solid red; */
     height: 110vh;
     width: 100%;
-    background-color: #3644AF ;
+    background-color: #3644AF;
     display: flex;
 }
 
-.container .welcome .text{
+.container .welcome .text {
     /* border: 1px solid red; */
     width: 60%;
     height: 60%;
     position: relative;
-    top: 30%;
+    top: 40%;
 }
-.container .welcome .text .Grow{
-    border: 1px solid red;
-    height: 50%;
+
+.container .welcome .text .Grow {
+    /* border: 1px solid red; */
+    height: 46%;
     width: 75%;
     margin-left: 100px;
 }
-.container .welcome .text .Grow .GrowP{
+
+.container .welcome .text .Grow .GrowP {
     color: white;
-    font-size: 60px;
+    font-size: 57px;
     /* letter-spacing: 1px; */
     font-family: sans-serif;
     margin-bottom: 15px;
 }
 
 .container .welcome .text .pbtn {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 50%;
     width: 87%;
     margin-left: 100px;
 }
-.container .welcome .text .pbtn .longtext{
+
+.container .welcome .text .pbtn .longtext {
     color: white;
+    font-size: 18px;
+    line-height: 30px;
+
 
 }
 
-.container .welcome .image{
+.btn-start {
+    position: relative;
+    top: 20px;
+    padding: 14px 35px;
+    background-color: #fff;
+    color: #3644AF;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.container .welcome .image {
     /* border: 1px solid red; */
     width: 40%;
     height: 80%;
@@ -112,17 +132,195 @@
     /* padding: 10px 0px; */
 }
 
-.container .welcome .image img{
+.container .welcome .image img {
     width: 83%;
     height: 95%;
     margin-top: 20px;
 }
 
-.container .curve{
+.container .curve {
     /* border: 1px solid red; */
-    height: 41vh;
+    height: 40vh;
     width: 100%;
     background-color: #3644AF;
     background-image: url('./images/bg-patter-2.png');
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ................about us............ */
+
+.container .about-us {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 110vh;
+    /* padding-left: 50px; */
+}
+
+.about-text {
+    /* border: 1px solid red; */
+    height: 30vh;
+    width: 55%;
+    position: relative;
+    top: 90px;
+    color: gray;
+    line-height: 25px;
+    word-spacing: 3px;
+    margin-left: 80px;
+}
+
+.about-text .about-text1 {
+    position: relative;
+    top: 30px;
+}
+
+.about-title {
+    font-size: 40px;
+    color: black;
+    display: inline;
+    /* width: 30%; */
+}
+
+#about-text {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 57vh;
+    position: relative;
+    top: 130px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-1 {
+    /* border: 1px solid red; */
+    background-image: url(images/about-us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40%;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: -1px 3px 16px -3px rgba(0, 0, 0, 1);
+
+}
+
+.box-2 {
+    /* border: 1px solid black; */
+    width: 57%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about-image {
+    height: 56vh;
+}
+
+.box-3 {
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 50%;
+}
+
+.box-4 {
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 50%;
+}
+
+.child-box {
+    /* border: 1px solid blue; */
+    height: 50%;
+    width: 100%
+}
+
+.child-box-text1 {
+    font-size: 20px;
+    color: black;
+    line-height: 60px;
+    margin-left: 22px;
+}
+
+.child-box-text2 {
+    color: rgb(100, 99, 99);
+    font-size: 16px;
+    margin-left: 22px;
+    line-height: 30px;
+}
+
+
+/* .........our course.............. */
+
+.course {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 120vh;
+    background-color: #F2F2FF;
+}
+
+.course1 {
+    /* border: 1px solid black; */
+    width: 90%;
+    height: 40vh;
+    margin-left: 90px;
+    background-color: #F2F2FF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coursebox {
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 100%;
+}
+
+.bottom {
+    margin-top: 80px;
+}
+
+.cbox1 {
+    background-image: url(images/html.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 100%;
+    /* margin-left: 80px; */
+    border-radius: 7px;
+    box-shadow: -1px 3px 16px -3px rgba(0, 0, 0, 1);
+}
+
+.cbox2 {
+    background-image: url(images/css.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: -1px 3px 16px -3px rgba(0, 0, 0, 1);
+}
+
+.cbox3 {
+    background-image: url(images/javascript.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: -1px 3px 16px -3px rgba(0, 0, 0, 1);
+}
+
+.cbox4 {
+    background-image: url(images/webdevelopment.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 31%;
+    height: 100%;
+    border-radius: 7px;
+    box-shadow: -1px 3px 16px -3px rgba(0, 0, 0, 1);
+}
+
+.minus {
+    color: rgb(235, 131, 149);
+    font-size: 50px;
 }
